@@ -14,13 +14,17 @@
 	display: table;
 	vertical-align: middle;
 	width: 100%;
+	background-image: url('../images/ivd_hero.jpg');
+	background-color: white;
+	background-position: 50% 10%;
+	background-size: cover;
 }
 .revo-slider, .forcefullwidth_wrapper_tp_banner {
 	overflow: hidden;
 	position: relative;
 }
 .banner .container {
-	vertical-align: middle;
+	padding-top: 80px;
 	display: table-cell;
 }
 .about-us .img {
