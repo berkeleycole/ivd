@@ -20,14 +20,6 @@
 
 	</head>
 	<body>
-		<div class="loader">
-			<div class="sk-folding-cube">
-				<div class="sk-cube1 sk-cube"></div>
-				<div class="sk-cube2 sk-cube"></div>
-				<div class="sk-cube4 sk-cube"></div>
-				<div class="sk-cube3 sk-cube"></div>
-			</div>
-		</div><!-- loader -->
 
 		<!--Page Wrapper Start-->
 		<div id="wrapper" class="homepage-one about-us-page our-team-one">
@@ -36,29 +28,20 @@
 				<div class="container">
 					<div class="row ">
 						<div class="col-xs-12 col-sm-1">
-							<a href="index.html"><img src="assets/images/header-one-logo.png" alt=""/> </a>
-
+							<a href="#"><img src="assets/images/header-one-logo.png" alt=""/> </a>
 						</div>
 						<div class="col-xs-12 col-sm-9 col-sm-offset-2   col-md-8 col-md-offset-3">
-							<nav>
+							<nav class="clearfix">
 
 								<button class="menu" type="button">
-									<span> </span>
-									<span> </span>
-									<span> </span>
-								</button>
+										<span> </span>
+										<span> </span>
+										<span> </span>
+									</button>
 
 								<ul class="navigation clearfix">
-									<li>
-										<a href="#">Home</a>
-										<ul class="drop-down">
-											<li>
-												<a href="index.html">Homepage</a>
-											</li>
-											<li>
-												<a href="homepage-one.html">Homepage-one</a>
-											</li>
-										</ul>
+									<li class="active">
+										<a href="index.html">Home</a>
 									</li>
 									<li>
 										<a href="about-us.html"> About us </a>
@@ -66,29 +49,13 @@
 									<li>
 										<a href="service.html"> Services </a>
 									</li>
-									<li class="active">
-										<a href="#"> Team </a>
-										<ul class="drop-down">
-											<li>
-												<a href="our-team.html">Our-team</a>
-											</li>
-											<li>
-												<a href="our-team-one.html">Our-team-one</a>
-											</li>
-										</ul>
+									<li>
+										<a href="our-team-one.html"> Team </a>
 									</li>
 									<li>
-										<a href="#">Portfolio</a>
-										<ul class="drop-down">
-											<li>
-												<a href="project.html">Project</a>
-											</li>
-											<li>
-												<a href="project-one.html">Project-one</a>
-											</li>
-										</ul>
+										<a href="project-one.html">Products</a>
 									</li>
-									<li>
+									<!-- <li>
 										<a href="#"> Pages </a>
 										<ul class="drop-down">
 											<li>
@@ -110,13 +77,12 @@
 												<a href="happy-client.html">happy-client</a>
 											</li>
 										</ul>
-									</li>
+									</li> -->
 									<li>
 										<a href="contact-us.html"> Contact us </a>
 									</li>
 
 								</ul>
-
 							</nav>
 
 						</div>
@@ -125,15 +91,13 @@
 			</header>
 			<!--Header Section End-->
 
-			<!--banner Section start-->
-			<section class="banner">
-				<div class="container">
-
+			<div style="position: relative; height: 40vh; overflow: hidden;">
+				<div style="display: flex; flex-direction: column; align-items: center; z-index: 10; height: 100%; width: 100%; padding-top: 150px; background-color: rgba(255, 255, 255, .6); ">
 					<h3 class="h3">Our </h3>
 					<h2>Team</h2>
 				</div>
-
-			</section>
+				<img src="assets/images/office_candid1.jpg" style="width: 100%; position: absolute; top: 0; z-index: -1;" />
+			</div>
 			<!--banner Section end-->
 
 			<!--Content Area Start-->
@@ -148,7 +112,7 @@
 								<div class="member-info-wrap">
 
 									<div class="member-img">
-										<img src="assets/images/member-one.jpg" alt=""/>
+										<img src="assets/images/bio1.jpg" alt=""/>
 
 										<div class="member-info">
 											<span class="overlay"> </span>
@@ -183,7 +147,7 @@
 								<div class="member-info-wrap">
 
 									<div class="member-img">
-										<img src="assets/images/member-two.jpg" alt=""/>
+										<img src="assets/images/bio2.jpg" alt=""/>
 
 										<div class="member-info">
 											<span class="overlay"> </span>
@@ -219,7 +183,7 @@
 								<div class="member-info-wrap">
 
 									<div class="member-img">
-										<img src="assets/images/member-three.jpg" alt=""/>
+										<img src="assets/images/bio3.jpg" alt=""/>
 
 										<div class="member-info">
 											<span class="overlay"> </span>
@@ -522,13 +486,6 @@
 		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 		<script type="text/javascript" src="assets/js/less.js"></script>
 		<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
-
-		<!-- revolution slider Js -->
-		<script type="text/javascript" src="assets/js//jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.revolution.js"></script>
-		<!--  revolution slider Js -->
-
 		<script type="text/javascript" src="assets/js/site.js"></script>
 
 	</body>

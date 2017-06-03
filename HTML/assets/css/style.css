@@ -14,7 +14,7 @@
 	display: table;
 	vertical-align: middle;
 	width: 100%;
-	background-image: url('../images/ivd_hero.jpg');
+	background-image: url('/assets/images/ivd_hero.jpg');
 	background-color: white;
 	background-position: 50% 10%;
 	background-size: cover;
@@ -29,7 +29,7 @@
 }
 .about-us .img {
 	position: relative;
-	width: 30%;
+	width: 50%;
 	float: left;
 	overflow: hidden;
 }
@@ -151,7 +151,7 @@
 	display: block;
 }
 .blog {
-	background: url(../images/atom-shape.png) no-repeat right bottom #0B5B56;
+	background: url(/assets/images/atom-shape.png) no-repeat right bottom #0B5B56;
 	padding: 0px 0 116px;
 	position: relative;
 }
@@ -492,7 +492,7 @@ section::after, .masthead::after {
 
 /*about-us css start here*/
 .about-us-page .banner {
-	background: url(../images/about-us-banner.jpg) no-repeat;
+	background: url(/assets/images/about-us-banner.jpg) no-repeat;
 	height: 331px;
 	background-size: cover;
 }
@@ -561,8 +561,9 @@ section::after, .masthead::after {
 	margin-bottom: 50px;
 }
 .process {
-	background: url(../images/process-bg.jpg) no-repeat 48% 0;
+	background: url(/assets/images/process-bg.jpg) no-repeat 48% 0;
 	background-size: cover;
+	background-color: #eeeced;
 }
 .about-us-page .fun-fact {
 	padding: 109px 0 119px;
@@ -909,7 +910,7 @@ section::after, .masthead::after {
 
 /*happy-client css start here*/
 .client-slider {
-	background: url(../images/client-slider.jpg) no-repeat;
+	background: url(/assets/images/client-slider.jpg) no-repeat;
 	background-size: cover;
 }
 .client-slider-cont {
@@ -998,7 +999,7 @@ section::after, .masthead::after {
 	z-index: 9;
 	width: 69px;
 	height: 57px;
-	background: url(../images/play-btn.png) 0 0 no-repeat;
+	background: url(/assets/images/play-btn.png) 0 0 no-repeat;
 }
 .pager li {
 	float: left;
@@ -1387,7 +1388,7 @@ section::after, .masthead::after {
 	position: relative;
 }
 .mapmarker {
-	background: url(../images/map-marker.png) no-repeat !important;
+	background: url(/assets/images/map-marker.png) no-repeat !important;
 	height: 50px;
 	width: 50px;
 	display: block;
